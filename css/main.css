@@ -3,5 +3,58 @@
 }
 html, body {
   min-height: 100%;
-  background: #c9b5ab;
+  background-color: : #c9b5ab;
+  font-family: 'PT Serif', serif;
+  line-height: 1.5;
+  text-decoration: none;
+}
+
+ul {
+  list-style:none;
+  font-family: 'PT Sans', sans-serif;
+}
+#nonumbers {
+  list-style: lower-greek;
+}
+
+data {
+  margin
+}
+
+#tagul {
+  list-style: circle;
+  font-family: sans-serif;
+}
+blockquote p {
+font-size: 1.5rem;
+font-style: italic;
+}
+h1, h2 {
+  font-family: 'PT Sans', sans-serif;
+  color: #3f1622;
+}
+
+nav a {
+  font-family: 'PT Sans', sans-serif;
+  text-decoration: none;
+  color: #8f2440;
+  font-size: 1.5rem;
+  font-style: bold;
+}
+
+p a {
+  text-decoration: none;
+  color: #8f2440;
+}
+
+#germination {
+  font-size: 1.5rem;
+}
+
+figcaption {
+  text-align: center;
+}
+
+#Source {
+  font-size: 0.8rem;
 }
