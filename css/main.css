@@ -1,60 +1,73 @@
-*{
+html {
   box-sizing: border-box;
+  background-color: #c9b5ab;
 }
-html, body {
-  min-height: 100%;
-  background-color: : #c9b5ab;
-  font-family: 'PT Serif', serif;
+
+* {
+  box-sizing: inherit;
   line-height: 1.5;
+  font-weight: normal;
+  font-family: "PT Sans", "PT Serif";
+}
+
+h1 {
+  color: #3f1622;
+  font-weight: bold;
+}
+
+a {
   text-decoration: none;
+  font-style: normal;
+  color: #8f2440;
+  font-weight: bold;
 }
 
-ul {
-  list-style:none;
-  font-family: 'PT Sans', sans-serif;
-}
-#nonumbers {
-  list-style: lower-greek;
-}
-
-data {
-  margin
-}
-
-#tagul {
-  list-style: circle;
-  font-family: sans-serif;
-}
-blockquote p {
-font-size: 1.5rem;
-font-style: italic;
-}
-h1, h2 {
-  font-family: 'PT Sans', sans-serif;
+a:hover {
+  text-decoration: underline;
   color: #3f1622;
 }
 
-nav a {
-  font-family: 'PT Sans', sans-serif;
-  text-decoration: none;
-  color: #8f2440;
-  font-size: 1.5rem;
-  font-style: bold;
-}
-
-p a {
-  text-decoration: none;
-  color: #8f2440;
-}
-
-#germination {
-  font-size: 1.5rem;
+img {
+  width: 100%;
 }
 
 figcaption {
-  text-align: center;
+  font-style: oblique;
 }
 
-#Source {
-  font-size: 0.8rem;
+.line {
+  font-weight: bold;
+  color: #222;
+  font-size: 1.125rem;
+}
+
+blockquote p {
+  font-size: 1.5rem;
+  font-style: italic ;
+}
+
+cite {
+  font-size: .8rem;
+  font-style: italic;
+}
+
+h2 {
+  color: #3f1622;
+  font-weight: bold;
+}
+
+.nonumber {
+  list-style-type: lower-greek;
+}
+
+dt {
+  font-weight: bold;
+}
+
+.tagul {
+  list-style-type: circle;
+}
+
+.italic {
+  font-style: italic;
 }
